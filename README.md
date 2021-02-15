@@ -9,7 +9,7 @@
 - Video_ML.ipynb: Machine learning met informatie over video's --> titel, beschrijving, transcript, etc.  
   
   
-### CSVs  
+### [CSVs](https://amsuni-my.sharepoint.com/:f:/r/personal/roan_schellingerhout_student_uva_nl/Documents/scriptie?csf=1&web=1&e=Z06rpn)
 - channel_review.csv: originele dataset, met judge-beslissingen e.d.  
 - channels.csv: ID, username, country, keywords, upload-ID, conspiracy (boolean)  
 - dataset_boolean.csv: kanalen uit channel_review, maar dan gecleaned met booleans voor conspiracy ja/nee  
