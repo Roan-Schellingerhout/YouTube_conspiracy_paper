@@ -2,15 +2,15 @@
   
   
 ### Notebooks  
-**Data Collections**
+  **Data Collections**
   - Download_videos.ipynb: roept youtube API aan om titels, beschrijvingen en transcripts te downloaden van de kanalen uit de dataset.  
   - Dataset.ipynb: Zet de originele (channel_review.csv) om in een bruikbare csv (dataset_boolean en dataset_tags)  
   
-**Machine Learning**
+  **Machine Learning**
   - Channel_ML.ipynb: Machine learning met informatie beschikbaar op het kanaal zelf --> description, keywords, etc.  
   - Video_ML.ipynb: Machine learning met informatie over video's --> titel, beschrijving, transcript, etc.  
 
-**YouTube experiment**
+  **YouTube experiment**
   - Experiment.ipynb: Een notebook die inlogt op een google account en vervolgens YouTube videos gaat kijken
   
   
