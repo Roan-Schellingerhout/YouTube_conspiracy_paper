@@ -14,7 +14,7 @@
   - Experiment.ipynb: Een notebook die inlogt op een google account en vervolgens YouTube videos gaat kijken
   
   
-### [CSVs](https://amsuni-my.sharepoint.com/:f:/r/personal/roan_schellingerhout_student_uva_nl/Documents/scriptie?csf=1&web=1&e=Z06rpn)
+### [CSVs](https://amsuni-my.sharepoint.com/:f:/g/personal/roan_schellingerhout_student_uva_nl/EgvhDGC6LrlInv1OpVVWvG4B_b_u3UR0ev_dKuPhQb0icw?e=uA9ogB)
 - channel_review.csv: originele dataset, met judge-beslissingen e.d.  
 - channels.csv: ID, username, country, keywords, upload-ID, conspiracy (boolean)  
 
