@@ -19,4 +19,4 @@
 - channels.csv: ID, username, country, keywords, upload-ID, conspiracy (boolean)  
 
 - uploads.csv: 10 uploads per kanaal uit channels.csv, met uploader, titel, description, transcript en conspiracy ja/nee  
-- training_videos.csv: uploads.csv, maar dan opgeschoond. Klassen gebalanceerd, alle tekst vertaald naar het Engels, worden gestemd, alles lowercase.
+- training_videos.csv: uploads.csv, maar dan opgeschoond. Klassen gebalanceerd, alle tekst vertaald naar het Engels, woorden gestemd, alles lowercase.
