@@ -1,13 +1,13 @@
 # Bachelor_scriptie 
-## Door: Roan Schellingerhout
+#### Roan Schellingerhout
 
-## Onderzoeksvraag: _Wat is de invloed van verschillende kijkstrategieën op de snelheid van het ontstaan van complot-filterbubbels op YouTube?_
-## Deelvragen: 
+### Onderzoeksvraag: _Wat is de invloed van verschillende kijkstrategieën op de snelheid van het ontstaan van complot-filterbubbels op YouTube?_
+### Deelvragen: 
   - Welk type classifier werkt het beste om complotvideo's op YoutTube te identificeren?
   - Hoe kan een filterbubbel gedefinieerd worden in de context van YouTube?
   - Bij welke kijkstrategie ontstaat er het snelst een complot-filterbubbel op YouTube?
 
-## Methode:
+### Methode:
 Met behulp van Python zullen twintig YouTube accounts video’s gaan kijken en na elke video bijhouden voor welk deel hun ‘aanbevolen’-pagina uit complotvideo’s bestaat. Om video’s als complotvideo’s te kunnen bestempelen, zijn er twee mogelijkheden. Als eerst is er is een dataset met daarin 3000 YouTube-kanalen die door mensen zijn bestempeld als complotkanalen, dus een video die geüpload is door een dergelijk kanaal, zal tellen als complotvideo. Daarnaast, voor video’s die buiten deze kanalen vallen, zal een ensemble van machine learning classifiers gebruikt worden, om zo te bepalen welke video’s wel en niet als complotvideo’s gezien kunnen worden. 
 
 Er zullen vier kijkstrategieën zijn:
@@ -32,7 +32,7 @@ Door deze opzet kan er, voor elke kijkstrategie, na elk aantal bekeken video’s
   - Video_ML.ipynb: Machine learning met informatie over video's --> titel, beschrijving, transcript, etc.  
 
   **YouTube experiment**
-  - Experiment.ipynb: Een notebook die inlogt op een google account en vervolgens YouTube videos gaat kijken
+  - Experiment.ipynb: Het daadwerkelijke experiment. Eerst wordt er ingelogd op een google account, vervolgens wordt er, afhankelijk van de usertype, een bepaald type video's gekeken. 
   
   
 ### [CSVs](https://amsuni-my.sharepoint.com/:f:/g/personal/roan_schellingerhout_student_uva_nl/EgvhDGC6LrlInv1OpVVWvG4B_b_u3UR0ev_dKuPhQb0icw?e=uA9ogB)
