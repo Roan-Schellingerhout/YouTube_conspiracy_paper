@@ -24,7 +24,7 @@ Door deze opzet kan er, voor elke kijkstrategie, na elk aantal bekeken video’s
 ## Index:
 ### Notebooks  
   **Data Collections**
-  - Download_videos.ipynb: roept youtube API aan om titels, beschrijvingen en transcripts te downloaden van de kanalen uit de dataset.  
+  - Download_videos.ipynb: roept YouTube API aan om titels, beschrijvingen en transcripts te downloaden van de kanalen uit de dataset.  
   - Dataset.ipynb: Zet de originele (channel_review.csv) om in een bruikbare csv (dataset_boolean en dataset_tags)  
   
   **Machine Learning**
