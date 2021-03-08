@@ -3,7 +3,7 @@
 
 ### Onderzoeksvraag: _Wat is de invloed van verschillende kijkstrategieën op de snelheid van het ontstaan van complot-filterbubbels op YouTube?_
 ### Deelvragen: 
-  - Welk type classifier werkt het beste om complotvideo's op YoutTube te identificeren?
+  - Welk type classifier werkt het beste om complotvideo's op YouTube te identificeren?
   - Hoe kan een filterbubbel gedefinieerd worden in de context van YouTube?
   - Bij welke kijkstrategie ontstaat er het snelst een complot-filterbubbel op YouTube?
 
