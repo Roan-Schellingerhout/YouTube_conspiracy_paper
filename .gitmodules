@@ -1,3 +1,4 @@
-[submodule "Scriptie-draft"]
-	path = Scriptie-draft
+[submodule "Scriptie-draft-main"]
+	path = Scriptie-draft-main
 	url = https://github.com/Roan-Schellingerhout/Scriptie-draft
+	branch = main
