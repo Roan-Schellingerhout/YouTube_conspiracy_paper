@@ -1,11 +1,11 @@
 # Bachelor_scriptie 
 #### Roan Schellingerhout
 
-### Onderzoeksvraag: _Wat is de invloed van verschillende kijkstrategieën op de snelheid van het ontstaan van complot-filterbubbels op YouTube?_
-### Deelvragen: 
-  - Welk type classifier werkt het beste om complotvideo's op YouTube te identificeren?
-  - Hoe kan een filterbubbel gedefinieerd worden in de context van YouTube?
-  - Bij welke kijkstrategie ontstaat er het snelst een complot-filterbubbel op YouTube?
+### Research question: _What is the impact of different watch strategies on the number of conspiracy videos that have to be watched until a user's YouTube-recommendations start preferring conspiracy content?_ (Preferring: the amount of conspiracy videos present in the recommendations is significantly higher than that of the baseline.)
+### Sub-questions: 
+  - With which watch strategy do YouTube recommendations start preferring conspiracy videos the quickest?
+  - How long does it take for a YouTube user to get out of a filter bubble, once they find themselves in one?
+  - What type of classifier performs the best when it comes to labeling conspiracy videos on YouTube?
 
 ### Methode:
 Met behulp van Python zullen twintig YouTube accounts video’s gaan kijken en na elke video bijhouden voor welk deel hun ‘aanbevolen’-pagina uit complotvideo’s bestaat. Om video’s als complotvideo’s te kunnen bestempelen, zijn er twee mogelijkheden. Als eerst is er is een dataset met daarin 3000 YouTube-kanalen die door mensen zijn bestempeld als complotkanalen, dus een video die geüpload is door een dergelijk kanaal, zal tellen als complotvideo. Daarnaast, voor video’s die buiten deze kanalen vallen, zal een ensemble van machine learning classifiers gebruikt worden, om zo te bepalen welke video’s wel en niet als complotvideo’s gezien kunnen worden. 
