@@ -1,7 +1,10 @@
 # Bachelor_scriptie 
 #### Roan Schellingerhout
 
-### Research question: _What is the impact of different watch strategies on the number of conspiracy videos that have to be watched until a user's YouTube-recommendations start preferring conspiracy content?_ (Preferring: the amount of conspiracy videos present in the recommendations is significantly higher than that of the baseline.)
+### Research question: _What is the impact of different watch strategies on the number of conspiracy videos that have to be watched until a user's YouTube-recommendations start preferring conspiracy content?_ 
+
+(Preferring: the amount of conspiracy videos present in the recommendations is significantly higher than that of the baseline.)
+
 ### Sub-questions: 
   - With which watch strategy do YouTube recommendations start preferring conspiracy videos the quickest?
   - How long does it take for a YouTube user to get out of a filter bubble, once they find themselves in one?
