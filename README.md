@@ -23,7 +23,7 @@ Videos will be watched according to four different watch strategies:
 Each watch strategy will be used by five different accounts. 
 
 In order to simulate real-world behaviour, the average watch time for videos will be normally distributed, with an average of 60% and a standard deviation of 15% [(Park et al., 2016)](https://ojs.aaai.org/index.php/ICWSM/article/view/14781/14630). 
-By running the experiment like so, it will be possible to find how many conspiracy videos are recommended to a user, for each watch strategy, after each amount of watched videos. Thereby, it will be possible to find how quickly the YouTube algorithm starts preferring conspiracy content per watch strategy. By applying a statistical analysis (ANOVA), this result can be tested for statistical significance. 
+By running the experiment like so, it will be possible to find how many conspiracy videos are recommended to a user, for each watch strategy, after each amount of watched videos. Thereby, it will be possible to find how quickly the YouTube algorithm starts preferring conspiracy content per watch strategy. By applying a statistical analysis (independent samples t-tests), this result can be tested for statistical significance. 
 
 ## Additional sources
 - https://arxiv.org/abs/1908.08313
@@ -35,9 +35,14 @@ By running the experiment like so, it will be possible to find how many conspira
 
 ## Index:
 ### Notebooks  
+  **data**
+  - Random tests.ipynb: some random tests/descriptives about the data. 
+
   **Data Collections**
   - Download_videos.ipynb: Uses the YouTube API to download titles, description, and transcripts of the latest 10 videos of each channel in the dataset
   - Dataset.ipynb: Converts the original dataset (channel_review.csv) to a usable csv-file (dataset_boolean and dataset_tags)  
+  - Clean_data.ipynb: Cleans the data from uploads.csv.
+  - Descriptives.ipynb: Contains some descriptives about the dataset. 
   
   **Machine Learning**
   - Video_ML.ipynb: Hyperparameter tuning for five different classifiers (and an ensemble), based on the title, description, transcript, channel description, and channel keywords of each video. 
@@ -47,6 +52,7 @@ By running the experiment like so, it will be possible to find how many conspira
   - Experiment.ipynb: The actual experiment. Automatically logs into a Google account and starts watching a certain type of videos, based on the user's assigned watch strategy. 
   
   **Results**
+  - Hyperparameters.ipynb: Displays performance of optimal hyperparameters for each classifier. 
   - Results recommendations.ipynb: Downloading all needed information about the recommendations (title, description, etc.), cleaning it, and converting it to TF-IDF. 
   - Recommendation network.ipynb: Create a directed network of all videos. Nodes are videos. An edge between nodes indicates the second video was recommended to at least one user directly after watching the first video. 
   
@@ -57,4 +63,4 @@ By running the experiment like so, it will be possible to find how many conspira
 - uploads.csv: 10 uploads for each channel in channels.csv; includes uploader, title, description, transcript and conspiracy (True/False) 
 - training_videos.csv: uploads.csv, but cleaned. Includes channel description and keywords, balanced classes, text translated to English, words stemmed, everything turned into lowercase.
 
-- recommendations.*.csv: the recommendations for a given strategy for experiment 1 or 2. Includes user, number of videos watched, video ID, views, likes, dislikes, duration, and full text of the video. 
+- recommendations_strat.*.csv: the recommendations for a given strategy for experiment 1 or 2. Includes user, number of videos watched, video ID, views, likes, dislikes, duration, and full text of the video. 
