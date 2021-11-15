@@ -2,6 +2,9 @@
 #### Author: Roan Schellingerhout
 #### Co-author: Davide Beraldo
 
+
+# [Link naar overleaf](https://www.overleaf.com/project/60af97fc7e833006a7b0cfed)
+
 ### Research question: _What is the impact of different watch strategies on the number of conspiracy videos that have to be watched until a user's YouTube-recommendations start preferring conspiracy content?_ 
 
 (Preferring: the amount of conspiracy videos present in the recommendations is significantly higher than that of the baseline.)
