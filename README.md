@@ -3,21 +3,19 @@
 #### Co-author: Davide Beraldo
 
 
-# [Link naar overleaf](https://www.overleaf.com/project/60af97fc7e833006a7b0cfed)
+# [Link to paper](**TODO once published**)
 
-### Research question: _What is the impact of different watch strategies on the number of conspiracy videos that have to be watched until a user's YouTube-recommendations start preferring conspiracy content?_ 
-
-(Preferring: the amount of conspiracy videos present in the recommendations is significantly higher than that of the baseline.)
+### Research question: _How does YouTube’s recommendation system treat conspiracy-classified content based on personalized watch patterns?_ 
 
 ### Sub-questions: 
-  - How do different watch strategies on YouTube influence the type of conspiracy content that is recommended to a user?
-  - How long does it take for a YouTube user to get out of a filter bubble, once they find themselves in one?
-  - What type of classifier performs the best when it comes to labeling conspiracy videos on YouTube?
+ - RQ1: Do watch strategies signaling interest towards conspiracy content increase the proportion of conspiracy content being recommended? 
+ - RQ2: How persistent are these effects? 
+ - RQ3: How do specific users’ watch strategies, making use of more or less personalized inputs, influence these recommendation patterns?
 
 ### Method:
-Using python, twenty different YouTube accounts will watch videos and, after every watched video, keep track of how many conspiracy videos are recommended to them on their YouTube homepage. To label videos as conspiracy videos, there are two possibilities. Firstly, there is a dataset with nearly 2500 YouTube channels that have manually been labeled as conspiracy channels (and an additional 4000 that have been labeled as something else); a video uploaded by such a channel will count as a conspiracy video. Secondly, for videos not made by channels from within this dataset, a machine learning classifier will be used in order to determine whether or not a video can be seen as a conspiracy video. 
+Using python, twenty different YouTube accounts watch videos and, after every watched video, keep track of how many conspiracy videos are recommended to them on their YouTube homepage. To label videos as conspiracy videos, there are two possibilities. Firstly, there is a dataset with nearly 2500 YouTube channels that have manually been labeled as conspiracy channels (and an additional 4000 that have been labeled as something else); a video uploaded by such a channel will count as a conspiracy video. Secondly, for videos not made by channels from within this dataset, a machine learning classifier will be used in order to determine whether or not a video can be seen as a conspiracy video. 
 
-Videos will be watched according to four different watch strategies:
+Videos are watched according to four different watch strategies:
   - Random non-conspiracy videos (control group);
   - Random conspiracy videos from a dataset;
   - Five similar conspiracy video from a dataset, followed by the top recommended conspiracy video that appears next to the video being watched;
@@ -26,15 +24,7 @@ Videos will be watched according to four different watch strategies:
 Each watch strategy will be used by five different accounts. 
 
 In order to simulate real-world behaviour, the average watch time for videos will be normally distributed, with an average of 60% and a standard deviation of 15% [(Park et al., 2016)](https://ojs.aaai.org/index.php/ICWSM/article/view/14781/14630). 
-By running the experiment like so, it will be possible to find how many conspiracy videos are recommended to a user, for each watch strategy, after each amount of watched videos. Thereby, it will be possible to find how quickly the YouTube algorithm starts preferring conspiracy content per watch strategy. By applying a statistical analysis (independent samples t-tests), this result can be tested for statistical significance. 
-
-## Additional sources
-- https://arxiv.org/abs/1908.08313
-- https://journals.sagepub.com/doi/abs/10.1177/1940161220964767
-- https://scripties.uba.uva.nl/search?id=c2871005
-- https://decorrespondent.nl/9150/youtube-schotelt-je-steeds-meer-extreme-videos-voor-hoe-werkt-dat/3119699490600-576d8612
-- https://wiki.digitalmethods.net/Dmi/WinterSchool2021FIterTube
-- https://www.nytimes.com/column/rabbit-hole
+By running the experiment like so, it will be possible to find how many conspiracy videos are recommended to a user, for each watch strategy, after each amount of watched videos. Thereby, it will be possible to find how quickly the YouTube algorithm starts preferring conspiracy content per watch strategy.
 
 ## Index:
 ### Notebooks  
