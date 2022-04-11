@@ -1,6 +1,6 @@
 # Bachelor_scriptie 
 #### Author: Roan Schellingerhout
-#### Co-author: Davide Beraldo
+#### Co-authors: Davide Beraldo, Maarten Marx
 
 
 # [Link to paper](**TODO once published**)
