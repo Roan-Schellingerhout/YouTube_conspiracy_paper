@@ -1,4 +1,4 @@
-# Bachelor_scriptie 
+# YouTube conspiracy paper 
 #### Author: Roan Schellingerhout
 #### Co-authors: Davide Beraldo, Maarten Marx
 
