@@ -49,7 +49,7 @@ By running the experiment like so, it will be possible to find how many conspira
   - Results recommendations.ipynb: Downloading all needed information about the recommendations (title, description, etc.), cleaning it, and converting it to TF-IDF. 
   - Recommendation network.ipynb: Create a directed network of all videos. Nodes are videos. An edge between nodes indicates the second video was recommended to at least one user directly after watching the first video. 
   
-### [CSVs](https://amsuni-my.sharepoint.com/:f:/g/personal/roan_schellingerhout_student_uva_nl/EgvhDGC6LrlInv1OpVVWvG4B_b_u3UR0ev_dKuPhQb0icw?e=uA9ogB)
+### [CSVs](https://drive.google.com/drive/folders/1kduDoA1JWWhH3nHoCFnT7h2YMkGsE36I?usp=sharing)
 - channel_review.csv: The original dataset with judge decisions.
 - channels.csv: List of channels + conspiracy as a boolean. Includes: channel ID, username, country, keywords, upload-ID (playlist of uploads), conspiracy (boolean)
 
